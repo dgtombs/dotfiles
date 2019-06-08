@@ -38,6 +38,7 @@ alias la='ls -A'
 alias rm='rm -i'
 alias mv='mv -i'
 alias cp='cp -i'
+alias gds='git diff --staged'
 
 # dgt 03 Oct 2009
 function mkcd () { mkdir -p "$@" && eval cd "\"\$$#\""; }
