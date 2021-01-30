@@ -39,7 +39,7 @@ alias rm='rm -i'
 alias mv='mv -i'
 alias cp='cp -i'
 alias gds='git diff --staged'
-alias gamd='git commit --amend'
+alias gamd='git commit --amend --date=now'
 
 # dgt 03 Oct 2009
 function mkcd () { mkdir -p "$@" && eval cd "\"\$$#\""; }
