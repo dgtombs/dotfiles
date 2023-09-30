@@ -1,4 +1,7 @@
 # Bash configuration that I use everywhere (Linux and macOS)
+#
+# Note that you should source this from your actual .bashrc instead of symlinking it or
+# something. That allows you to still have machine-specific configuration.
 
 # make less more friendly for non-text input files, see lesspipe(1)
 [ -x /usr/bin/lesspipe ] && eval "$(SHELL=/bin/sh lesspipe)"
