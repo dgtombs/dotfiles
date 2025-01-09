@@ -34,6 +34,9 @@ shopt -s histverify
 # Don't try to complete an empty string.
 shopt -s no_empty_cmd_completion
 
+# TODO: show mode in command line
+set -o vi
+
 ### Aliases and Functions ###
 
 alias ll='ls -lF'
